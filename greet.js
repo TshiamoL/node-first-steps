@@ -1,1 +1,5 @@
-console.log("Hello I am JavaScript I escapeed from the browser")
+module.exports = function(name){
+    return 'Hello, ' + name;
+}
+
+
